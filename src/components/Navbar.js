@@ -15,12 +15,6 @@ export default function Navbar(props) {
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-flex me-2">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/" style={{color: props.mode==="dark"? "black":"white"}}>Home</a>
-        </li>
-        <li className="nav-item" >
-          <a className="nav-link" href="/" style={{color: props.mode==="dark"? "black":"white"}}>About</a>
-        </li>
       </ul>
       <div className="form-check form-switch">
   <input className="form-check-input" type="checkbox" onClick={props.toggleMode} role="switch" id="flexSwitchCheckDefault"/>
